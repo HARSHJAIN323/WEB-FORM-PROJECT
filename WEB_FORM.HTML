@@ -1,0 +1,43 @@
+<!-- Quick Quiz Form -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vertical Form</title>
+    <style>
+        form {
+            width: 300px;
+            margin: 20px auto;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        label,
+        input {
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <form>
+        <div>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">
+        </div>
+        <div>
+            <label for="city">City:</label>
+            <input type="text" id="city" name="city">
+        </div>
+        <div>
+            <label for="pincode">Pincode:</label>
+            <input type="text" id="pincode" name="pincode">
+        </div>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+
+</html>
